@@ -1,0 +1,169 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: #0f0232;
+}
+.header{
+    background-image:
+    url(./assets/hero-shape.jpg.png),
+    url(./assets/hero-building.png),
+    -webkit-linear-gradient(90deg, #e82a7a 0%, #360354 100%);
+    background-repeat: no-repeat;
+    background-size: 100%,cover;
+    background-position: bottom,top;
+    display: flex;
+    padding: 15em;    
+
+}
+.header button{
+    color: white;
+    border: none;
+    border-radius: 50px;
+    background-image: -webkit-linear-gradient(45deg, #d73df5 0%, #8f3df5 100%);
+    box-shadow: -1.113px 7.922px 16px 0px rgb(143 61 245 / 63%);
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.header button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-image: -webkit-linear-gradient(45deg, #d73df5 50%, #8f3df5 100%);
+
+}
+.textAndImg{
+display: flex;
+justify-content: space-around;
+width: 100%;
+
+}
+.text{
+    color: white;
+    width: 30em;
+}
+.text h1{
+    margin: 0%;
+font-size: 2.8em;}
+.text span{ 
+    color:#ffb200;
+    font-size: 1.5em;
+}
+.text p{
+font-size: larger;
+}
+
+.Main{
+    padding: 15em;    
+
+    color: white;
+}
+.PasosDescrip h2{
+
+    font-size: 4em;
+}
+.PasosDescrip span{
+    color:#ffb200;
+    font-size: 1.5em;
+}
+
+
+.Pasos{
+    display: flex;
+    justify-content: left;
+    margin-left: 0PX;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: -webkit-linear-gradient(90deg, #e82a7a 0%, #360354 100%);
+    width: 18em;
+    height: 23em;
+    margin-right: 2em;
+    border-radius: 5px;
+    text-align: center;
+}
+.imgContainer{
+    display: flex;
+    border-radius: 50%;
+    border: solid white 1px;
+    text-align: center;
+    width: 6em;
+    margin: 0em auto 0em;
+    height: 6em;
+}
+.Card img{
+    width: 3em;
+    margin: auto;
+}
+.Card p{
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 1.1em;
+    }
+    
+.Card span {
+    font-size: 1.4em;
+    color: white;
+}
+.Card:hover{
+    animation: cardAnim 1s forwards;
+   
+}
+@keyframes cardAnim {
+    100% { transform: scale(1.1);
+    }
+}
+.contadorCont{
+    padding: 0em 15em;
+    margin-bottom: 2em;
+}
+.Contador{
+    display: flex;
+    padding: 2em;
+    border: 1px solid rgba(92, 82, 172, 0.4);
+    display: flex;    
+    color: white;
+    display: flex;
+}
+.Tiempo{
+    width: 40%;
+}
+.Contador div h2{
+    font-size: 2em;
+}
+.contadorYbtn{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.contadorYbtn span{
+    color: #22b868;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.buttonCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Contador button{
+    color: white;
+    border-radius: 20px;
+    padding: 1em 2em;
+    font-size: 14px;
+    background-image: -webkit-linear-gradient(7deg, #ec1379 0%, #6c0092 100%);
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 35%);
+}
+.Contador button img{
+text-align: center;
+}
+.Contador button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-image: -webkit-linear-gradient(7deg, #ec1379 50%, #6c0092 100%);
+
+}
