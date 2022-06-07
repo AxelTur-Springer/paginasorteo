@@ -16,8 +16,11 @@ body{
     background-size: 100%,cover;
     background-position: bottom,top;
     display: flex;
-    padding: 15em;    
+    padding: 15%;    
 
+}
+.minerimg img{
+    width: 100%;
 }
 .header button{
     color: white;
@@ -167,3 +170,102 @@ text-align: center;
     background-image: -webkit-linear-gradient(7deg, #ec1379 50%, #6c0092 100%);
 
 }
+@media (max-width: 1024px) {
+ .textAndImg{
+     flex-direction: column;
+    width: 100%; }
+
+    .text{
+        width: 90%;
+        margin: auto;
+    }
+
+    .headerBtnCont{
+      display: flex;
+      justify-content: center;
+    }
+    .Main{
+        padding: 2em;    
+    }
+    .Pasos{
+        display: flex;
+       flex-direction: column;
+    }
+    .Card{
+        width: 70%;
+        margin:auto;
+        margin-top: 1em;
+    }
+    .contadorCont{
+        padding: 2EM;
+    }
+    .Contador{
+        display: flex;
+       flex-direction: column;
+       text-align: center;
+    }
+    .contadorYbtn{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .Tiempo{
+        width: 100%;
+
+    }
+}
+
+
+@media (max-width: 425PX) {
+    .header{
+        font-size: 0.6em;
+        padding: 3em 1EM;
+        text-align: center;
+    }
+    .header div{
+        margin-top: 4em;
+    }
+    .textAndImg{
+        flex-direction: column;
+       width: 100%; }
+   
+       .text{
+           width: 100%;
+           margin: auto;
+       }
+   
+       .headerBtnCont{
+         display: flex;
+         justify-content: center;
+       }
+       .Main{
+           font-size: 0.8em; 
+       }
+       .Pasos{
+           display: flex;
+          flex-direction: column;
+       }
+       .Card{
+           width: 85%;
+           margin:auto;
+           margin-top: 1em;
+       }
+       .contadorCont{
+           padding: 0EM;
+       }
+       .Contador{
+           display: flex;
+          flex-direction: column;
+          text-align: center;
+       }
+       .contadorYbtn{
+           width: 100%;
+           display: flex;
+           justify-content: space-around;
+       }
+       .Tiempo{
+           width: 100%;
+   
+       }
+
+  }
