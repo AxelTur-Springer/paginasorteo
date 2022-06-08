@@ -181,6 +181,10 @@ text-align: center;
     height: 1.1em;
     margin-right: 5px;
 }
+.simplespasos{
+ font-size: 1.4em;
+ margin-left: 1px;
+}
 @media (max-width: 1024px) {
  .textAndImg{
      flex-direction: column;
