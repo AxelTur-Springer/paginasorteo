@@ -275,14 +275,25 @@ text-align: center;
           flex-direction: column;
           text-align: center;
        }
-       .contadorYbtn{
-           width: 100%;
-           display: flex;
-           justify-content: space-around;
-       }
-       .Tiempo{
-           width: 100%;
-   
-       }
+      
 
   }
+
+  @media (max-width: 600px) {
+    .contadorYbtn{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Tiempo{
+        width: 100%;
+    }
+    .timeleft{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    
+
+}
+
