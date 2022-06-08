@@ -14,7 +14,7 @@ body{
     -webkit-linear-gradient(90deg, #e82a7a 0%, #360354 100%);
     background-repeat: no-repeat;
     background-size: 100%,cover;
-    background-position: bottom,top;
+    background-position: 0% 100.5%,top;
     display: flex;
     padding: 15%;    
 
@@ -169,6 +169,17 @@ text-align: center;
     transform: scale(1.05);
     background-image: -webkit-linear-gradient(7deg, #ec1379 50%, #6c0092 100%);
 
+}
+.timeleft{
+    display: flex;
+}
+.timeleft div{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    border-right: #22be6b solid;
+    height: 1.1em;
+    margin-right: 5px;
 }
 @media (max-width: 1024px) {
  .textAndImg{
