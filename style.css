@@ -142,10 +142,11 @@ font-size: larger;
     width: 60%;
     display: flex;
     justify-content: space-between;
+
 }
 .contadorYbtn span{
     color: #22be6b;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
 }
 .buttonCont{
@@ -172,6 +173,7 @@ text-align: center;
 }
 .timeleft{
     display: flex;
+    font-size: 2em;
 }
 .timeleft div{
     display: flex; 
